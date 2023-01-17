@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# instragram-clone
-Estou desenvolvendo este trabalho com intuito de aplicar os conhecimentos adquirido nas disciplinas de Programação Web e Banco de Dados oriundas da minha formação em bacharel em ciência da computação.
-=======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
