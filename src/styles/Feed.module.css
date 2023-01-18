@@ -16,7 +16,7 @@
   align-items: center;
   height: 118px;
   background: var(--color-white);
-  border: 2px solid var(--border-color);
+  border: 1px solid var(--border-color);
   border-radius: 2px;
   padding: 0 20px;
 }
@@ -56,17 +56,157 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   background: linear-gradient(to bottom, red, purple);
   border-radius: 50%;
   cursor: pointer;
 }
 
 .storyBorder img {
-  width: 52px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid white;
+}
+
+.postContent {
+  margin-top: 32px;
+  gap: 10px;
+
+}
+
+.post {
+  margin-top: 32px;
+  min-height: 9.1rem;
+  background: var(--color-white);
+  border: 1px solid var(--border-color);
+}
+
+.post header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+}
+
+.postProfile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+}
+
+.post>header>img {
+  cursor: pointer;
+}
+
+.postProfile p {
+  font-size: 1rem;
+  font-weight: 700;
+
+}
+
+.postBorder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, red, purple);
+}
+
+.postBorder img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+  cursor: pointer;
+}
+
+.postProfile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.postProfile p {
+  font-weight: 700;
+}
+
+.postImage {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.postFooter {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+.comment {
+  padding: 12px 24px;
+}
+
+.comment span {
+  font-weight: 700;
+}
+
+.icons {
+  display: flex;
+  padding: 8px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconRight {
+  display: flex;
+  gap: 8px;
+}
+
+.commentLikes {
+  font-weight: 700;
+}
+.postFooter p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.postFooter p:nth-child(n+5) {
+  color: var(--footer-color);
+}
+
+.addComment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-top: 1px solid var(--border-color);
+}
+
+.inputComment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.inputComment input {
+  font-size: 1rem;
+  height: 24px;
+}
+
+.addComment button {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 5px;
+  color: var(--color-blue);
+  cursor: pointer;
 }
