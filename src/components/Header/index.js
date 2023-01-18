@@ -16,12 +16,12 @@ export default function Header(){
           <input type="search" placeholder="pesquisar..."/>
         </div>
         <div className={styles.navBar}>
-          <Link href="#"><Image src="/images/icons/Home-fill.png" width={22} height={22} alt='icones do navbar'/></Link>
-          <Link href="#"><Image src="/images/icons/Messenger.png" width={22} height={22} alt='icones do navbar'/></Link>
-          <Link href="#"><Image src="/images/icons/NewPosts.png" width={22} height={22} alt='icones do navbar'/></Link>
-          <Link href="#"><Image src="/images/icons/FindPeople.png" width={22} height={22} alt='icones do navbar'/></Link>
-          <Link href="#"><Image src="/images/icons/ActivityFeed.png" width={22} height={22} alt='icones do navbar'/></Link>
-          <Link href="#"><Image src="/images/Profile-Pic-S.png" width={22} height={22} alt='icones do navbar'/></Link>
+          <Link href="#"><Image src="/images/icons/Home-fill.png" width={22} height={22} alt='Home'/></Link>
+          <Link href="#"><Image src="/images/icons/Messenger.png" width={22} height={22} alt='Messenger'/></Link>
+          <Link href="#"><Image src="/images/icons/NewPosts.png" width={22} height={22} alt='New post'/></Link>
+          <Link href="#"><Image src="/images/icons/FindPeople.png" width={22} height={22} alt='Find people'/></Link>
+          <Link href="#"><Image src="/images/icons/ActivityFeed.png" width={22} height={22} alt='Activity feed'/></Link>
+          <Link href="#"><Image src="/images/Profile-Pic-S.png" width={22} height={22} alt='Profile'/></Link>
         </div>
       </div>
     </header>
