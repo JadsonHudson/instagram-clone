@@ -1,10 +1,10 @@
 .containerGrid {
-  max-width: 957px;
-  margin: 24px auto 0;
   display: grid;
+  max-width: 957px;
+  margin: 24px auto;
+  justify-content: space-between;
   grid-template-areas: "rightContent""leftContent";
   grid-template-columns: 614px 293px;
-  grid-gap: 36px;
 }
 
 .rightContent {
@@ -174,6 +174,7 @@
 .commentLikes {
   font-weight: 700;
 }
+
 .postFooter p {
   overflow: hidden;
   white-space: nowrap;
@@ -209,4 +210,95 @@
   padding: 5px;
   color: var(--color-blue);
   cursor: pointer;
+}
+
+.leftContent {
+  padding: 16px 4px;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileSection a {
+  color: var(--color-blue);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.username>p:first-child {
+  color: var(--color-black);
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.username>p:not(:first-child) {
+  color: gray;
+  font-size: .9em;
+  font-weight: 100;
+}
+
+.avatar>img {
+  border-radius: 50%;
+}
+
+.suggestions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.suggestions>span {
+  font-weight: 600;
+  color: gray;
+}
+
+.suggestions>button {
+  font-size: .9rem;
+  background-color: transparent;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.follows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.follow button {
+  font-size: .8rem;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.follow img {
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.profileName p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.profileName span {
+  color: gray;
+  font-size: .9rem;
 }
