@@ -534,12 +534,12 @@ export default function Feed() {
                     </div>
                     <div className={styles.follows}>
                         <div className={styles.follow}>
-                                <Image
-                                    src="/images/profile-j.png"
-                                    width={32}
-                                    height={32}
-                                    alt="image follow"
-                                />
+                            <Image
+                                src="/images/profile-j.png"
+                                width={32}
+                                height={32}
+                                alt="image follow"
+                            />
                             <div className={styles.profileName}>
                                 <p>username</p>
                                 <span>Followed by hudson + 2 more</span>
@@ -547,12 +547,12 @@ export default function Feed() {
                             <button>Follow</button>
                         </div>
                         <div className={styles.follow}>
-                                <Image
-                                    src="/images/profile-j.png"
-                                    width={32}
-                                    height={32}
-                                    alt="image follow"
-                                />
+                            <Image
+                                src="/images/profile-j.png"
+                                width={32}
+                                height={32}
+                                alt="image follow"
+                            />
                             <div className={styles.profileName}>
                                 <p>username</p>
                                 <span>Followed by hudson + 2 more</span>
@@ -560,12 +560,12 @@ export default function Feed() {
                             <button>Follow</button>
                         </div>
                         <div className={styles.follow}>
-                                <Image
-                                    src="/images/profile-j.png"
-                                    width={32}
-                                    height={32}
-                                    alt="image follow"
-                                />
+                            <Image
+                                src="/images/profile-j.png"
+                                width={32}
+                                height={32}
+                                alt="image follow"
+                            />
                             <div className={styles.profileName}>
                                 <p>username</p>
                                 <span>Followed by hudson + 2 more</span>
@@ -573,12 +573,12 @@ export default function Feed() {
                             <button>Follow</button>
                         </div>
                         <div className={styles.follow}>
-                                <Image
-                                    src="/images/profile-j.png"
-                                    width={32}
-                                    height={32}
-                                    alt="image follow"
-                                />
+                            <Image
+                                src="/images/profile-j.png"
+                                width={32}
+                                height={32}
+                                alt="image follow"
+                            />
                             <div className={styles.profileName}>
                                 <p>username</p>
                                 <span>Followed by hudson + 2 more</span>
@@ -587,7 +587,59 @@ export default function Feed() {
                         </div>
                     </div>
                     <footer>
-                        
+                        <ul className={styles.footerItems}>
+                            <li>
+                                <a href="#" target="_blank">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Press
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    API
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Privacy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Terms
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Locations
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Top Accounts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Hashtags
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    Language
+                                </a>
+                            </li>
+                        </ul>
+                        <p>&#169; Jadson</p>
                     </footer>
                 </div>
             </div>

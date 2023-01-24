@@ -213,6 +213,10 @@
 }
 
 .leftContent {
+  position: fixed;
+  top: 11%;
+  left: 60%;
+  height: 600px;
   padding: 16px 4px;
 }
 
@@ -301,4 +305,20 @@
 .profileName span {
   color: gray;
   font-size: .9rem;
+}
+
+.footerItems {
+  display: flex;
+  padding: 16px 0px;
+  gap: 4px;
+  width: 258px;
+  list-style: none;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.footerItems a {
+  font-size: .8rem;
+  font-weight: 300;
+  color: gray;
 }
