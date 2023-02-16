@@ -1,9 +1,10 @@
 .containerGrid {
   display: grid;
   max-width: 957px;
-  margin: 24px auto;
+  margin: 32px auto;
+  padding: 36px 0px;
   justify-content: space-between;
-  grid-template-areas: "rightContent""leftContent";
+  grid-template-areas: "rightContent" "leftContent";
   grid-template-columns: 614px 293px;
 }
 
